@@ -41,6 +41,8 @@ So the **final diagram** before deletion would look something like:
 
 ![Execution Context Phase 2](../assets/final_execution_context.jpg "Execution Context")
 
+To manage all these EC, a call stack is created. Everytime code is run, the EC is pushed in. So first global EC is pushed. Then e1 EC(for square2) is pushed, and then after value returned, is popped. Similarly e2 EC(for square4) is pushed, and then popped and finally Global is also popped and stack is empty.
+
 * Javascript manages code execution context creation and deletion with the the help of **Call Stack**.
 
 * Call Stack is a mechanism to keep track of its place in script that calls multiple function.
