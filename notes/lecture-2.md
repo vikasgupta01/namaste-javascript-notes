@@ -20,6 +20,11 @@ The very **first** thing which JS does is **memory creation phase**, so it goes 
 
 So O/P will look something like
 
+n:undefined 
+square:{...entire-code...}
+square2:undefined 
+square4:undefined
+
 ![Execution Context Phase 1](../assets/phase1.jpg "Execution Context")
 
 Now, in **2nd phase** i.e. code execution phase, it starts going through the whole code line by line. As it encounters var n = 2, it assigns 2 to 'n'. Until now, the value of 'n' was undefined. For function, there is nothing to execute. As these lines were already dealt with in memory creation phase.
