@@ -20,10 +20,12 @@ The very **first** thing which JS does is **memory creation phase**, so it goes 
 
 So O/P will look something like
 
+```js
 n:undefined 
 square:{...entire-code...}
 square2:undefined 
 square4:undefined
+```
 
 ![Execution Context Phase 1](../assets/phase1.jpg "Execution Context")
 
